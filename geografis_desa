@@ -1,0 +1,25 @@
+  Container(
+            // iphone14pro1LzZ (1:2)
+            padding:  EdgeInsets.fromLTRB(0*fem, 36*fem, 0*fem, 36*fem),
+            width:  double.infinity,
+            height:  852*fem,
+            decoration:  BoxDecoration (
+                    color:  Color(0xffffffff),
+            ),
+            child:
+                    Align(
+                            // basemapimage38H (1:12)
+                            alignment:  Alignment.topLeft,
+                            child:
+                                    SizedBox(
+                                            width:  800*fem,
+                                            height:  600*fem,
+                                            child:
+                                                    Image.network(
+                                                            [Image url]
+                                                            fit:  BoxFit.contain,
+                                                    ),
+                                    ),
+                    ),
+    ),
+    
